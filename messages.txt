@@ -1,0 +1,375 @@
+Jun 13 00:00:29 ubuntu systemd[1]: Finished Rotate log files.
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5279] dhcp4 (ens33): option dhcp_lease_time      => '1800'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5303] dhcp4 (ens33): option domain_name          => 'localdomain'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5305] dhcp4 (ens33): option domain_name_servers  => '192.168.177.2'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5306] dhcp4 (ens33): option expiry               => '1655105451'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5308] dhcp4 (ens33): option ip_address           => '192.168.177.128'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5309] dhcp4 (ens33): option next_server          => '192.168.177.254'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5311] dhcp4 (ens33): option requested_broadcast_address => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5312] dhcp4 (ens33): option requested_domain_name => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5315] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5316] dhcp4 (ens33): option requested_domain_search => '1'
+Jun 13 00:00:51 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=741 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5318] dhcp4 (ens33): option requested_host_name  => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5320] dhcp4 (ens33): option requested_interface_mtu => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5321] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5323] dhcp4 (ens33): option requested_nis_domain => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5325] dhcp4 (ens33): option requested_nis_servers => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5327] dhcp4 (ens33): option requested_ntp_servers => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5329] dhcp4 (ens33): option requested_rfc3442_classless_static_routes => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5331] dhcp4 (ens33): option requested_root_path  => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5332] dhcp4 (ens33): option requested_routers    => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5334] dhcp4 (ens33): option requested_static_routes => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5340] dhcp4 (ens33): option requested_subnet_mask => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5342] dhcp4 (ens33): option requested_time_offset => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5344] dhcp4 (ens33): option requested_wpad       => '1'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5346] dhcp4 (ens33): option routers              => '192.168.177.2'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5348] dhcp4 (ens33): option subnet_mask          => '255.255.255.0'
+Jun 13 00:00:51 ubuntu NetworkManager[741]: <info>  [1655103651.5349] dhcp4 (ens33): state changed extended -> extended
+Jun 13 00:00:51 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 13 00:00:51 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 13 00:00:51 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 13 00:01:02 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jun 13 00:03:11 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:03:11 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:03:11 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:03:11 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:03:47 ubuntu tracker-store[23339]: OK
+Jun 13 00:03:47 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:04:04 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:04:04 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:04:04 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:04:04 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:04:04 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:04:04 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:04:05 ubuntu tracker-extract[23370]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:04:05 ubuntu tracker-extract[23370]: Setting priority nice level to 19
+Jun 13 00:04:05 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:04:05 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:04:10 ubuntu gnome-shell[2590]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2200007
+Jun 13 00:04:16 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:04:18 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating service name='org.gnome.gedit' requested by ':1.37' (uid=1000 pid=2590 comm="/usr/bin/gnome-shell " label="unconfined")
+Jun 13 00:04:18 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.gnome.gedit'
+Jun 13 00:04:19 ubuntu gnome-shell[2590]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x26000f8
+Jun 13 00:04:36 ubuntu tracker-store[23362]: OK
+Jun 13 00:04:36 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:04:46 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.452' (uid=1000 pid=23389 comm="file-roller /home/wigbhavya12/Desktop/messages.txt" label="unconfined")
+Jun 13 00:04:46 ubuntu systemd[1]: Starting Hostname Service...
+Jun 13 00:04:46 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jun 13 00:04:46 ubuntu systemd[1]: Started Hostname Service.
+Jun 13 00:04:50 ubuntu NetworkManager[741]: <info>  [1655103890.1263] manager: NetworkManager state is now CONNECTED_SITE
+Jun 13 00:04:50 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=741 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun 13 00:04:50 ubuntu whoopsie[927]: [00:04:50] offline
+Jun 13 00:04:50 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 13 00:04:50 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 13 00:04:50 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 13 00:04:50 ubuntu NetworkManager[741]: <info>  [1655103890.8240] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 13 00:04:50 ubuntu whoopsie[927]: [00:04:50] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:04:50 ubuntu whoopsie[927]: [00:04:50] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:04:50 ubuntu whoopsie[927]: [00:04:50] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:04:52 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:04:52 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:04:52 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:04:52 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:04:52 ubuntu whoopsie[927]: [00:04:52] online
+Jun 13 00:04:52 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:04:52 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:04:52 ubuntu tracker-extract[23435]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:04:52 ubuntu tracker-extract[23435]: Setting priority nice level to 19
+Jun 13 00:04:52 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:04:52 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:04:54 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating service name='org.gnome.Nautilus' requested by ':1.349' (uid=1000 pid=23389 comm="file-roller /home/wigbhavya12/Desktop/messages.txt" label="unconfined")
+Jun 13 00:04:54 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.gnome.Nautilus'
+Jun 13 00:04:55 ubuntu nautilus[23454]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Jun 13 00:05:00 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating service name='org.gnome.gedit' requested by ':1.353' (uid=1000 pid=23454 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Jun 13 00:05:00 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.gnome.gedit'
+Jun 13 00:05:01 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jun 13 00:05:03 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:05:09 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating service name='org.gnome.gedit' requested by ':1.353' (uid=1000 pid=23454 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Jun 13 00:05:09 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.gnome.gedit'
+Jun 13 00:05:23 ubuntu tracker-store[23427]: OK
+Jun 13 00:05:23 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:05:25 ubuntu systemd[1]: systemd-hostnamed.service: Succeeded.
+Jun 13 00:05:41 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:05:41 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:05:41 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:05:41 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:06:12 ubuntu tracker-store[23502]: OK
+Jun 13 00:06:12 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:06:21 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:06:21 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:06:21 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:06:21 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:06:21 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:06:21 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:06:21 ubuntu tracker-extract[23524]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:06:21 ubuntu tracker-extract[23524]: Setting priority nice level to 19
+Jun 13 00:06:21 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:06:21 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:06:32 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:06:34 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:06:34 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:06:34 ubuntu tracker-extract[23549]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:06:34 ubuntu tracker-extract[23549]: Setting priority nice level to 19
+Jun 13 00:06:34 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:06:34 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:06:45 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:07:05 ubuntu tracker-store[23517]: OK
+Jun 13 00:07:05 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:09:30 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:09:30 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:09:30 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:09:30 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:09:31 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:09:31 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:09:31 ubuntu tracker-extract[23585]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:09:31 ubuntu tracker-extract[23585]: Setting priority nice level to 19
+Jun 13 00:09:31 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:09:31 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:09:47 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:10:07 ubuntu tracker-store[23578]: OK
+Jun 13 00:10:07 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:10:10 ubuntu NetworkManager[741]: <info>  [1655104210.1273] manager: NetworkManager state is now CONNECTED_SITE
+Jun 13 00:10:10 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=741 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun 13 00:10:10 ubuntu whoopsie[927]: [00:10:10] offline
+Jun 13 00:10:10 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 13 00:10:10 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 13 00:10:10 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 13 00:10:10 ubuntu NetworkManager[741]: <info>  [1655104210.7757] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 13 00:10:10 ubuntu whoopsie[927]: [00:10:10] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:10:10 ubuntu whoopsie[927]: [00:10:10] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:10:10 ubuntu whoopsie[927]: [00:10:10] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:10:12 ubuntu whoopsie[927]: [00:10:12] online
+Jun 13 00:10:21 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jun 13 00:10:24 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:10:24 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:10:24 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:10:24 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:10:24 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:10:24 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:10:24 ubuntu tracker-extract[23632]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:10:24 ubuntu tracker-extract[23632]: Setting priority nice level to 19
+Jun 13 00:10:24 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:10:24 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:10:35 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:10:55 ubuntu tracker-store[23625]: OK
+Jun 13 00:10:55 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:10:59 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:10:59 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:10:59 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:10:59 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:10:59 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:10:59 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:10:59 ubuntu tracker-extract[23666]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:10:59 ubuntu tracker-extract[23666]: Setting priority nice level to 19
+Jun 13 00:10:59 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:10:59 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:11:13 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:11:33 ubuntu tracker-store[23659]: OK
+Jun 13 00:11:33 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:12:40 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:12:40 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:12:40 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:12:40 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:12:41 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:12:41 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:12:41 ubuntu tracker-extract[23722]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:12:41 ubuntu tracker-extract[23722]: Setting priority nice level to 19
+Jun 13 00:12:41 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:12:41 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:13:01 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:13:21 ubuntu tracker-store[23713]: OK
+Jun 13 00:13:21 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:13:31 ubuntu gnome-shell[2590]: Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x220313b
+Jun 13 00:13:38 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.457' (uid=1000 pid=23389 comm="file-roller /home/wigbhavya12/Desktop/messages.txt" label="unconfined")
+Jun 13 00:13:38 ubuntu systemd[1]: Starting Hostname Service...
+Jun 13 00:13:38 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jun 13 00:13:38 ubuntu systemd[1]: Started Hostname Service.
+Jun 13 00:13:45 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:13:45 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:13:45 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:13:45 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:13:45 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:13:45 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:13:45 ubuntu tracker-extract[23784]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:13:45 ubuntu tracker-extract[23784]: Setting priority nice level to 19
+Jun 13 00:13:46 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:13:46 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:13:47 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating service name='org.gnome.Nautilus' requested by ':1.349' (uid=1000 pid=23389 comm="file-roller /home/wigbhavya12/Desktop/messages.txt" label="unconfined")
+Jun 13 00:13:47 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.gnome.Nautilus'
+Jun 13 00:13:48 ubuntu nautilus[23803]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Jun 13 00:13:57 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:14:17 ubuntu tracker-store[23777]: OK
+Jun 13 00:14:17 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:14:18 ubuntu systemd[1]: systemd-hostnamed.service: Succeeded.
+Jun 13 00:15:04 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:15:04 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:15:04 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:15:04 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:15:04 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:15:04 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:15:04 ubuntu tracker-extract[23859]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:15:04 ubuntu tracker-extract[23859]: Setting priority nice level to 19
+Jun 13 00:15:05 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:15:05 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:15:24 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:15:30 ubuntu NetworkManager[741]: <info>  [1655104530.1263] manager: NetworkManager state is now CONNECTED_SITE
+Jun 13 00:15:30 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=741 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun 13 00:15:30 ubuntu whoopsie[927]: [00:15:30] offline
+Jun 13 00:15:30 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 13 00:15:30 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 13 00:15:30 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 13 00:15:36 ubuntu NetworkManager[741]: <info>  [1655104536.8273] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 13 00:15:36 ubuntu whoopsie[927]: [00:15:36] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:15:36 ubuntu whoopsie[927]: [00:15:36] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:15:36 ubuntu whoopsie[927]: [00:15:36] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:15:38 ubuntu whoopsie[927]: [00:15:38] online
+Jun 13 00:15:44 ubuntu tracker-store[23852]: OK
+Jun 13 00:15:44 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:15:47 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.1271] manager: NetworkManager state is now CONNECTED_SITE
+Jun 13 00:15:51 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=741 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun 13 00:15:51 ubuntu whoopsie[927]: [00:15:51] offline
+Jun 13 00:15:51 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 13 00:15:51 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 13 00:15:51 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5339] dhcp4 (ens33): option dhcp_lease_time      => '1800'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5346] dhcp4 (ens33): option domain_name          => 'localdomain'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5349] dhcp4 (ens33): option domain_name_servers  => '192.168.177.2'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5351] dhcp4 (ens33): option expiry               => '1655106351'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5353] dhcp4 (ens33): option ip_address           => '192.168.177.128'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5355] dhcp4 (ens33): option next_server          => '192.168.177.254'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5357] dhcp4 (ens33): option requested_broadcast_address => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5359] dhcp4 (ens33): option requested_domain_name => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5360] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5363] dhcp4 (ens33): option requested_domain_search => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5365] dhcp4 (ens33): option requested_host_name  => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5367] dhcp4 (ens33): option requested_interface_mtu => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5368] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5370] dhcp4 (ens33): option requested_nis_domain => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5372] dhcp4 (ens33): option requested_nis_servers => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5373] dhcp4 (ens33): option requested_ntp_servers => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5375] dhcp4 (ens33): option requested_rfc3442_classless_static_routes => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5376] dhcp4 (ens33): option requested_root_path  => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5378] dhcp4 (ens33): option requested_routers    => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5380] dhcp4 (ens33): option requested_static_routes => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5388] dhcp4 (ens33): option requested_subnet_mask => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5391] dhcp4 (ens33): option requested_time_offset => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5393] dhcp4 (ens33): option requested_wpad       => '1'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5395] dhcp4 (ens33): option routers              => '192.168.177.2'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5397] dhcp4 (ens33): option subnet_mask          => '255.255.255.0'
+Jun 13 00:15:51 ubuntu NetworkManager[741]: <info>  [1655104551.5399] dhcp4 (ens33): state changed extended -> extended
+Jun 13 00:15:53 ubuntu NetworkManager[741]: <info>  [1655104553.7632] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 13 00:15:53 ubuntu whoopsie[927]: [00:15:53] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:15:53 ubuntu whoopsie[927]: [00:15:53] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:15:53 ubuntu whoopsie[927]: [00:15:53] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:15:55 ubuntu whoopsie[927]: [00:15:55] online
+Jun 13 00:16:04 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jun 13 00:17:01 ubuntu CRON[23907]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 13 00:17:24 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:17:24 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:17:24 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:17:24 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:17:24 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:17:24 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:17:25 ubuntu tracker-extract[23917]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:17:25 ubuntu tracker-extract[23917]: Setting priority nice level to 19
+Jun 13 00:17:25 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:17:25 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:17:40 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:18:00 ubuntu tracker-store[23910]: OK
+Jun 13 00:18:00 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:18:10 ubuntu kernel: [55949.116532] e1000: ens33 NIC Link is Down
+Jun 13 00:18:14 ubuntu kernel: [55953.149599] e1000: ens33 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4728] device (ens33): carrier: link connected
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4732] device (ens33): DHCPv4 lease renewal requested
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4733] dhcp4 (ens33): canceled DHCP transaction
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4734] dhcp4 (ens33): state changed extended -> done
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4740] dhcp4 (ens33): activation: beginning transaction (timeout in 45 seconds)
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4823] dhcp4 (ens33): option dhcp_lease_time      => '1800'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4825] dhcp4 (ens33): option domain_name          => 'localdomain'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4825] dhcp4 (ens33): option domain_name_servers  => '192.168.177.2'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4826] dhcp4 (ens33): option expiry               => '1655106494'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4827] dhcp4 (ens33): option ip_address           => '192.168.177.128'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4827] dhcp4 (ens33): option next_server          => '192.168.177.254'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4828] dhcp4 (ens33): option requested_broadcast_address => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4828] dhcp4 (ens33): option requested_domain_name => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4829] dhcp4 (ens33): option requested_domain_name_servers => '1'
+Jun 13 00:18:14 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=741 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4830] dhcp4 (ens33): option requested_domain_search => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4830] dhcp4 (ens33): option requested_host_name  => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4831] dhcp4 (ens33): option requested_interface_mtu => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4832] dhcp4 (ens33): option requested_ms_classless_static_routes => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4832] dhcp4 (ens33): option requested_nis_domain => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4833] dhcp4 (ens33): option requested_nis_servers => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4834] dhcp4 (ens33): option requested_ntp_servers => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4834] dhcp4 (ens33): option requested_rfc3442_classless_static_routes => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4835] dhcp4 (ens33): option requested_root_path  => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4836] dhcp4 (ens33): option requested_routers    => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4836] dhcp4 (ens33): option requested_static_routes => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4837] dhcp4 (ens33): option requested_subnet_mask => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4838] dhcp4 (ens33): option requested_time_offset => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4838] dhcp4 (ens33): option requested_wpad       => '1'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4839] dhcp4 (ens33): option routers              => '192.168.177.2'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4840] dhcp4 (ens33): option subnet_mask          => '255.255.255.0'
+Jun 13 00:18:14 ubuntu NetworkManager[741]: <info>  [1655104694.4840] dhcp4 (ens33): state changed unknown -> bound
+Jun 13 00:18:14 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 13 00:18:14 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 13 00:18:14 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 13 00:18:25 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jun 13 00:20:57 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:20:57 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:20:58 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:20:58 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:20:58 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:20:58 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:20:58 ubuntu tracker-extract[23964]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:20:58 ubuntu tracker-extract[23964]: Setting priority nice level to 19
+Jun 13 00:20:58 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:20:58 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:21:12 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:21:13 ubuntu NetworkManager[741]: <info>  [1655104873.1269] manager: NetworkManager state is now CONNECTED_SITE
+Jun 13 00:21:13 ubuntu whoopsie[927]: [00:21:13] offline
+Jun 13 00:21:13 ubuntu dbus-daemon[739]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=741 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jun 13 00:21:13 ubuntu systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jun 13 00:21:13 ubuntu dbus-daemon[739]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jun 13 00:21:13 ubuntu systemd[1]: Started Network Manager Script Dispatcher Service.
+Jun 13 00:21:20 ubuntu NetworkManager[741]: <info>  [1655104880.8342] manager: NetworkManager state is now CONNECTED_GLOBAL
+Jun 13 00:21:20 ubuntu whoopsie[927]: [00:21:20] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:21:20 ubuntu whoopsie[927]: [00:21:20] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:21:20 ubuntu whoopsie[927]: [00:21:20] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/3
+Jun 13 00:21:20 ubuntu whoopsie[927]: [00:21:20] online
+Jun 13 00:21:28 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:21:28 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:21:28 ubuntu tracker-extract[24000]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:21:28 ubuntu tracker-extract[24000]: Setting priority nice level to 19
+Jun 13 00:21:28 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:21:28 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:21:31 ubuntu systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Jun 13 00:21:44 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:22:04 ubuntu tracker-store[23957]: OK
+Jun 13 00:22:04 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:23:32 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:23:32 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:23:32 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:23:32 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
+Jun 13 00:23:33 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:23:33 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:23:33 ubuntu tracker-extract[24040]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:23:33 ubuntu tracker-extract[24040]: Setting priority nice level to 19
+Jun 13 00:23:33 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:23:33 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:23:44 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:23:45 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:23:45 ubuntu systemd[2360]: Starting Tracker metadata extractor...
+Jun 13 00:23:45 ubuntu tracker-extract[24066]: Set scheduler policy to SCHED_IDLE
+Jun 13 00:23:45 ubuntu tracker-extract[24066]: Setting priority nice level to 19
+Jun 13 00:23:45 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Jun 13 00:23:45 ubuntu systemd[2360]: Started Tracker metadata extractor.
+Jun 13 00:23:56 ubuntu systemd[2360]: tracker-extract.service: Succeeded.
+Jun 13 00:24:16 ubuntu tracker-store[24033]: OK
+Jun 13 00:24:16 ubuntu systemd[2360]: tracker-store.service: Succeeded.
+Jun 13 00:24:19 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=2368 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Jun 13 00:24:19 ubuntu systemd[2360]: Starting Tracker metadata database store and lookup manager...
+Jun 13 00:24:19 ubuntu dbus-daemon[2376]: [session uid=1000 pid=2376] Successfully activated service 'org.freedesktop.Tracker1'
+Jun 13 00:24:19 ubuntu systemd[2360]: Started Tracker metadata database store and lookup manager.
